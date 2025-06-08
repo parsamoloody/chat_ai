@@ -53,7 +53,7 @@ Response:
 
 - Express.js
 
-- OpenAI API (gpt-3.5-turbo)
+- OpenAI API (gpt-4o-mini), (modify to another model)
 
 - dotenv for configuration
 
