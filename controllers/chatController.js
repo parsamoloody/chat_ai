@@ -11,7 +11,7 @@ console.log(req.body)
   try {
     const reply = await chatService(message);
     logger.info("OpenAI response sent.");
-    res.json({ reply });
+    res.json({ answer: reply });
   } catch (error) {
     logger.error(error.message);
     res.status(500).json({ error: "Internal Server Error" });

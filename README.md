@@ -42,7 +42,7 @@ Request Body:
 Response:
 ```json
 {
-  "reply": "I'm just a chatbot, but I'm doing great!"
+  "answer": "I'm just a chatbot, but I'm doing great!"
 }
 ```
 
