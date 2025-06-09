@@ -3,8 +3,8 @@ import express from 'express'
 const app = express();
 import router from './routes/chatRoutes.js'
 import logger from './utils/logger.js';
-env.config()
-
+import cors from 'cors'
+env.config(cors())
 app.use(express.json());
 app.use("/api", router);
 
